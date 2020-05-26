@@ -1,3 +1,7 @@
+Name: PyPI
+
+on: push
+
 jobs:
   build:
     name: Build
