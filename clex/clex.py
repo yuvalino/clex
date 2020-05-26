@@ -6,8 +6,8 @@ import sys
 import six
 
 
-
 # Exceptions
+
 
 class UnexpectedToken(Exception):
     def __init__(self, token):
@@ -23,8 +23,8 @@ class UnexpectedEOLError(Exception):
         self.eol = eol
 
 
-
 # Classes
+
 
 class clex(object):
     """
